@@ -1,13 +1,7 @@
 <template>
-  <article
-    class="card"
-    :class="{ 'card--wide': wide }"
-  >
+  <article class="card" :class="{ 'card--wide': wide }">
     <div class="card__image">
-      <img
-        :src="img"
-        :alt="imgAlt"
-      />
+      <img :src="img" :alt="imgAlt" loading="lazy" />
     </div>
     <div class="px-2">
       <header>
