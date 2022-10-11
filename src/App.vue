@@ -43,6 +43,20 @@
         @onRemove="onTagRemove"
       />
     </div>
+    <div class="mb-4 flex">
+      <vc-avatar />
+      <vc-avatar
+        initials="HP"
+        border-color="#127676"
+        background-color="#ade4e4"
+        text-color="#645858"
+      />
+      <vc-avatar border-color="red" />
+      <vc-avatar size="medium" />
+      <vc-avatar size="medium" initials="AG" />
+      <vc-avatar size="large" />
+      <vc-avatar size="large" initials="MJ" />
+    </div>
   </div>
 </template>
 
@@ -53,6 +67,7 @@ import "./styles/main.scss";
 import VcButton from "@/components/button/VcButton.vue";
 import VcCard from "@/components/card/VcCard.vue";
 import VcTag from "@/components/tag/VcTag.vue";
+import VcAvatar from "@/components/avatar/VcAvatar.vue";
 
 let tagVisible = ref(true);
 

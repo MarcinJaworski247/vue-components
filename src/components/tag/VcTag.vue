@@ -7,7 +7,7 @@
   </div>
 </template>
 <script setup>
-import { toRef, defineEmits } from "vue";
+import { toRef } from "vue";
 import { computed } from "@vue/reactivity";
 
 const emit = defineEmits(["onRemove"]);

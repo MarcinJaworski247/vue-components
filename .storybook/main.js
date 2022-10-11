@@ -13,12 +13,13 @@ module.exports = {
   features: {
     storyStoreV7: true,
   },
-  async viteFinal(config, { configType }) {
+  async viteFinal(config) {
     return mergeConfig(config, {
       css: {
+        postcss: null,
         preprocessorOptions: {
           scss: {
-            additionalData: `@import "./src/styles/main";`,
+            additionalData: `@import "./src/styles/main.scss";`,
           },
         },
       },
