@@ -6,12 +6,11 @@
     <div class="px-2">
       <header>
         <h2 class="card__title">{{ title }}</h2>
-        <span class="card__subtitle">{{ subTitle }}</span>
+        <span class="card__subtitle">{{ subtitle }}</span>
       </header>
       <div class="card__content">
         {{ content }}
       </div>
-      <footer class="card__footer"></footer>
     </div>
   </article>
 </template>
@@ -37,7 +36,7 @@ defineProps({
     required: false,
     default: "",
   },
-  subTitle: {
+  subtitle: {
     type: String,
     required: false,
     default: "",

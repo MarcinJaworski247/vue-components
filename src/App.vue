@@ -12,14 +12,14 @@
       <vc-card
         img="https://picsum.photos/400/200"
         title="Some title"
-        sub-title="Some subtitle"
+        subtitle="Some subtitle"
         img-alt="Some random photo"
         content="Lorem ipsum dolor sit amet consectetur adipisicing elit. Sequi magni
         dolorum odit, omnis esse."
       />
       <vc-card
         title="Some title"
-        sub-title="Some subtitle"
+        subtitle="Some subtitle"
         content="Lorem ipsum dolor sit amet consectetur adipisicing elit. Sequi magni
         dolorum odit, omnis esse."
       />
@@ -27,7 +27,7 @@
         img="https://picsum.photos/200/300"
         img-alt="Some random photo"
         title="Some title"
-        sub-title="Some subtitle"
+        subtitle="Some subtitle"
         content="Lorem ipsum dolor sit amet consectetur adipisicing elit. Sequi magni
         dolorum odit,"
         wide

@@ -26,7 +26,7 @@ NormalCard.args = {
   wide: false,
   img: "https://picsum.photos/400/200",
   title: "Some title",
-  subTitle: "Some subtitle",
+  subtitle: "Some subtitle",
   imgAlt: "Some random photo",
   content:
     "Lorem ipsum dolor sit amet consectetur adipisicing elit. Sequi magnidolorum odit.",
@@ -37,7 +37,7 @@ WideCard.args = {
   wide: true,
   img: "https://picsum.photos/200/300",
   title: "Some title",
-  subTitle: "Some subtitle",
+  subtitle: "Some subtitle",
   imgAlt: "Some random photo",
   content:
     "Lorem ipsum dolor sit amet consectetur adipisicing elit. Sequi magnidolorum odit.",
