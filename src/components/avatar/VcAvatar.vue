@@ -10,12 +10,12 @@
   >
     <img v-if="!initials" :src="img" :alt="imgAlt" class="avatar__img" />
     <span v-if="initials" class="avatar__initials">
-      {{ initials }}
+      {{ initials.slice(0, 2).toUpperCase() }}
     </span>
   </div>
 </template>
 <script setup>
-import { onMounted, toRef } from "vue";
+import { toRef } from "vue";
 import { computed } from "@vue/reactivity";
 
 const props = defineProps({
