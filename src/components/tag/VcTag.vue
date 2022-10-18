@@ -1,9 +1,9 @@
 <template>
   <div class="tag" :style="colors">
     {{ text }}
-    <span v-if="removable" @click="onRemove" class="ml-1 tag__close"
-      >&#10006;</span
-    >
+    <span v-if="removable" @click="onRemove" class="ml-1 tag__close">
+      &#10006;
+    </span>
   </div>
 </template>
 <script setup>

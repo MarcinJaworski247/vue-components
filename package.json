@@ -25,7 +25,7 @@
     "@vitejs/plugin-vue": "^3.1.2",
     "@vue/test-utils": "^2.0.0-rc.18",
     "babel-loader": "^8.2.5",
-    "happy-dom": "^7.5.12",
+    "jsdom": "^20.0.1",
     "sass": "^1.32.7",
     "vite": "^3.1.6",
     "vitest": "^0.24.3",

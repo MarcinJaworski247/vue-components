@@ -69,10 +69,6 @@ const dynamicStyles = computed(() => {
   styles.color = textColor.value;
   return styles;
 });
-
-onMounted(() => {
-  console.log(textColor.value);
-});
 </script>
 <style lang="scss" scoped>
 .avatar {
