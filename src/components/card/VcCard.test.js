@@ -1,5 +1,5 @@
 import { mount } from "@vue/test-utils";
-import { describe, it, expect, test } from "vitest";
+import { describe, it, expect } from "vitest";
 import VcCard from "./VcCard.vue";
 
 describe("VcCard.vue", () => {
