@@ -1,9 +1,9 @@
 <template>
   <div class="tag" :style="colors">
     {{ text }}
-    <span v-if="removable" @click="onRemove" class="ml-1 tag__close">
+    <div v-if="removable" @click="onRemove" class="ml-1 tag__close">
       &#10006;
-    </span>
+    </div>
   </div>
 </template>
 <script setup>
@@ -55,14 +55,17 @@ function onRemove() {
 </script>
 <style lang="scss" scoped>
 .tag {
-  display: inline-block;
+  display: inline-flex;
+  align-items: center;
   background-color: white;
   padding: 4px 16px;
   border-width: 1px;
   border-style: solid;
   border-radius: 7px;
+  cursor: default;
 
   &__close {
+    font-size: 1.4rem;
     cursor: pointer;
   }
 }
