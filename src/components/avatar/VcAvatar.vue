@@ -55,7 +55,6 @@ const props = defineProps({
     default: "inherit",
   },
 });
-
 const borderColor = toRef(props, "borderColor");
 const backgroundColor = toRef(props, "backgroundColor");
 const textColor = toRef(props, "textColor");
