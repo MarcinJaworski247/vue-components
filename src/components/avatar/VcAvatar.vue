@@ -59,7 +59,6 @@ const props = defineProps({
 const borderColor = toRef(props, "borderColor");
 const backgroundColor = toRef(props, "backgroundColor");
 const textColor = toRef(props, "textColor");
-
 const dynamicStyles = computed(() => {
   let styles = {};
   if (borderColor.value) {
