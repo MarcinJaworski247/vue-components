@@ -2,6 +2,8 @@
 
 Simple customizable UI components.
 
+Demo: https://marcinjaworski247.github.io/vue-components
+
 ## Stack
 
 - Vue 3.x
