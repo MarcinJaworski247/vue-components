@@ -13,6 +13,7 @@ module.exports = {
   features: {
     storyStoreV7: true,
   },
+  staticDirs: [{ from: "../src/assets", to: "src/assets" }],
   async viteFinal(config) {
     return mergeConfig(config, {
       css: {
@@ -23,6 +24,7 @@ module.exports = {
           },
         },
       },
+      base: "./",
     });
   },
 };

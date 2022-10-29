@@ -13,7 +13,6 @@ export default {
     backgroundColor: "String",
   },
 };
-
 const Template = (args) => ({
   components: { VcAvatar },
   setup() {
