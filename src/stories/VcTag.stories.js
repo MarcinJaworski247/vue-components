@@ -10,7 +10,6 @@ export default {
     removable: "Boolean",
   },
 };
-
 const Template = (args) => ({
   components: { VcTag },
   setup() {
