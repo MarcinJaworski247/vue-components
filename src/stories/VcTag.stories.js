@@ -8,6 +8,7 @@ export default {
     color: "String",
     filled: "Boolean",
     removable: "Boolean",
+    onRemove: {},
   },
 };
 
