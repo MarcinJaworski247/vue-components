@@ -74,9 +74,6 @@
         </p>
       </vc-modal>
     </div>
-    <div class="mb-4 flex">
-      <vc-loader />
-    </div>
   </div>
 </template>
 
@@ -89,7 +86,6 @@ import VcCard from "@/components/card/VcCard.vue";
 import VcTag from "@/components/tag/VcTag.vue";
 import VcAvatar from "@/components/avatar/VcAvatar.vue";
 import VcModal from "@/components/modal/VcModal.vue";
-import VcLoader from "@/components/loader/VcLoader.vue";
 
 let tagVisible = ref(true);
 
