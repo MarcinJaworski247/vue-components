@@ -57,6 +57,26 @@
       <vc-avatar size="large" />
       <vc-avatar size="large" initials="MJ" />
     </div>
+    <div class="mb-4 flex">
+      <vc-button text="Show modal" @click="showModal" />
+      <vc-modal
+        title="Modal title"
+        width="30%"
+        :visible="modalVisible"
+        @onClose="closeModal"
+      >
+        <img src="https://picsum.photos/200/100" loading="lazy" />
+        <p class="mt-2">
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Eius
+          similique qui adipisci facilis repellat optio ut praesentium obcaecati
+          repudiandae unde. Modi voluptatum tempore totam inventore in officia
+          maiores repellendus nihil!
+        </p>
+      </vc-modal>
+    </div>
+    <div class="mb-4 flex">
+      <vc-loader />
+    </div>
   </div>
 </template>
 
@@ -68,11 +88,23 @@ import VcButton from "@/components/button/VcButton.vue";
 import VcCard from "@/components/card/VcCard.vue";
 import VcTag from "@/components/tag/VcTag.vue";
 import VcAvatar from "@/components/avatar/VcAvatar.vue";
+import VcModal from "@/components/modal/VcModal.vue";
+import VcLoader from "@/components/loader/VcLoader.vue";
 
 let tagVisible = ref(true);
 
 function onTagRemove() {
   tagVisible.value = false;
+}
+
+let modalVisible = ref(false);
+
+function showModal() {
+  modalVisible.value = true;
+}
+
+function closeModal() {
+  modalVisible.value = false;
 }
 </script>
 <style lang="scss" scoped>
