@@ -11,7 +11,6 @@ export default {
     onRemove: {},
   },
 };
-
 const Template = (args) => ({
   components: { VcTag },
   setup() {
